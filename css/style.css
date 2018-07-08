@@ -21,12 +21,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #222629;
   font-weight: 600;
 }
 
 h4 {
-  color: #292929;
+  color: #222629;
   font-size: 14px;
   font-weight: 600;
 }
@@ -50,7 +50,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #b8a07e;
+  color: #86C232;
   text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 12px;
-  color: #999999;
+  color: rgb(212, 212, 212);
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
@@ -75,7 +75,7 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: rgb(212, 212, 212);
   line-height: 28px;
 }
 
@@ -102,7 +102,7 @@ p {
 }
 
 .btn:hover, .btn:focus {
-  color: #fff;
+  color: #86C232;
 }
 
 .padDiv {
@@ -154,7 +154,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #86C232;
 }
 
 .mb-30 {
@@ -167,7 +167,7 @@ p {
 
 nav {
   position: fixed;
-  background: #fff;
+  background: #222629;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -175,6 +175,11 @@ nav {
   -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
+
+.nav-link {
+  padding: 0px;
+  margin-top: -5px;
 }
 
 .nav-menu {
@@ -197,7 +202,7 @@ nav ul li a {
   position: relative;
   display: block;
   font-size: 14px;
-  color: #999999;
+  color: rgb(212, 212, 212);
   font-family: 'Poppins', helvetica;
   font-weight: 500;
   line-height: 16px;
@@ -211,8 +216,8 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
-  height: 50px;
+  width: 180px;
+  height: 38px;
 }
 
 .responsive {
@@ -221,7 +226,11 @@ nav ul li a {
 }
 
 .active {
-  color: #afafaf;
+  color: #86C232;
+}
+
+#navimg {
+  margin: 6px;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -273,24 +282,24 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Aout-us
+/*  About us
 /*-----------------------------------------------------------------------------------*/
 
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  padding-top: 190px;
+  background: #777777;
+  padding: 190px 0px 80px 0px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 8px solid #86C232;
 }
 
 #about .div-img-bg .about-img img {
   width: 100%;
-  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.9);
   margin-top: -60px;
   margin-left: 40px;
   height: 400px;
@@ -298,6 +307,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
+  color: #222629;
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
@@ -314,7 +324,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #f7f7f7;
+  background: #777777;
   position: relative;
   padding-bottom: 80px;
 }
@@ -326,7 +336,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #292929;
+  color: #222629;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -334,6 +344,7 @@ nav ul li a {
 }
 
 .services-block .separator {
+  color: rgb(212, 212, 212);
   margin: 0;
   font-size: 13px;
   line-height: 22px;
@@ -341,7 +352,7 @@ nav ul li a {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #86C232;
   line-height: 44px;
 }
 
@@ -363,12 +374,12 @@ nav ul li a {
   border-radius: 50%;
   border: 0;
   padding: 0 !important;
-  background-color: #ddd;
+  background-color: rgb(212, 212, 212);
   cursor: pointer;
 }
 
 .services-carousel .owl-dot.active {
-  background-color: #b8a07e;
+  background-color: #86C232;
 }
 
 .owl-nav {
@@ -413,7 +424,7 @@ nav ul li a {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #b8a07e;
+  color: #86C232;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -437,91 +448,12 @@ nav ul li a {
 }
 
 /*-----------------------------------------------------------------------------------*/
-/*  Journal
-/*-----------------------------------------------------------------------------------*/
-
-#journal,  #journal-blog {
-  height: auto;
-  width: 100%;
-  background: #f7f7f7;
-  padding-bottom: 60px;
-  position: relative;
-}
-
-#journal-blog {
-  background: #fff;
-  padding-bottom: 30px;
-}
-
-#journal .journal-block {
-  display: inline-block;
-  height: auto;
-  width: 100%;
-}
-
-#journal .journal-block .journal-info {
-  position: relative;
-}
-
-.journal-block .journal-info img {
-  max-width: 100%;
-}
-
-.journal-block .journal-info .journal-txt {
-  padding: 25px 0px;
-  position: relative;
-}
-
-.journal-block .journal-info .journal-txt h4 a {
-  display: block;
-  font-size: 19px;
-  line-height: 24px;
-  margin: 0 0 13px 0;
-  font-weight: 500;
-  color: #292929;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
-  -moz-transition: all 0.5s ease-in-out 0s;
-  -ms-transition: all 0.5s ease-in-out 0s;
-  -o-transition: all 0.5s ease-in-out 0s;
-  -webkit-transition: all 0.5s ease-in-out 0s;
-  transition: all 0.5s ease-in-out 0s;
-}
-
-.journal-block .journal-info .journal-txt p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 24px;
-}
-
-
-/*-----------------------------------------------------------------------------------*/
 /*  Facts
 /*-----------------------------------------------------------------------------------*/
 
 #facts {
-  background-color: #a8a8a8;
-  background-size: cover;
-  padding: 60px 0 0 0;
-  position: relative;
-}
-
-#facts::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(255, 255, 255, 0.88);
-  z-index: 9;
+  background-color: #777777;
+  padding: 60px 0 60px 0;
 }
 
 #facts .container {
@@ -529,20 +461,27 @@ nav ul li a {
   z-index: 10;
 }
 
+#facts i {
+  font-size: 30px;
+  margin: 12px 30px 30px 30px;
+}
+
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #ad9677;
+  color: #86C232;
 }
 
 #facts p {
   text-align: center;
   padding-bottom: 35px;
+  color: rgb(212, 212, 212);
 }
 
 #facts h2 {
+  color: #222629;
   text-align: center;
   font-size: 25px;
   letter-spacing: 2px;
@@ -551,20 +490,25 @@ nav ul li a {
 
 #facts h5 {
   padding-top: 20px;
+  color: rgb(94, 94, 94);
+}
+
+.bgcolor {
+  background-color: #222629;
+  border: 5px solid rgba(255, 255, 255, 0);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding-top: 30px;
 }
 
 #facts .counters p {
   padding: 0;
-  margin: 8px 0 20px 0;
+  margin: 10px 0px 30px 0px;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  color: #111;
+  color: rgb(212, 212, 212);
 }
 
-#facts .facts-img {
-  text-align: center;
-  padding-top: 30px;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Contact
@@ -591,8 +535,8 @@ nav ul li a {
 
 
 #contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
+  color: #86C232;
+  border: 1px solid #86C232;
   display: none;
   text-align: center;
   padding: 15px;
@@ -627,7 +571,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #777777;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -650,7 +594,7 @@ nav ul li a {
 
 #footer .socials-media ul li a {
   font-size: 24px;
-  color: #999;
+  color: #222629;
   letter-spacing: 0.1em;
   font-weight: 500;
   background: transparent;
@@ -663,7 +607,7 @@ nav ul li a {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #86C232;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -672,6 +616,7 @@ nav ul li a {
 }
 
 #footer p {
+  color: rgb(212, 212, 212);
   font-size: 12px;
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -680,5 +625,6 @@ nav ul li a {
 }
 
 .credits {
+  color: rgb(212, 212, 212);
   font-size: 13px;
 }
