@@ -182,6 +182,24 @@ nav {
   margin-top: -7px;
 }
 
+
+.dropdown-menu {
+  background-color: rgba(0,0,0,.8);
+}
+
+.dropdown-item {
+  color: rgb(212, 212, 212);
+}
+
+.dropdown-item:active {
+  background-color: transparent;
+}
+
+.dropdown-item:hover {
+  color: #86c232;
+  background-color: transparent;
+}
+
 .nav-menu {
   float: right;
   line-height: 32px;
