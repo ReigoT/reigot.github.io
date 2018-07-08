@@ -80,12 +80,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #86C232;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #86C232;
   color: #fff;
 }
 
@@ -167,7 +167,7 @@ p {
 
 nav {
   position: fixed;
-  background: #222629;
+  background: rgba(0, 0, 0, 0.7);
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -288,7 +288,7 @@ nav ul li a {
 #about {
   width: 100%;
   height: auto;
-  background: #777777;
+  background: #212529;
   padding: 190px 0px 80px 0px;
 }
 
@@ -307,7 +307,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  color: #222629;
+  color: #86C232;
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
@@ -324,7 +324,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #services {
-  background: #777777;
+  background: #212529;
   position: relative;
   padding-bottom: 80px;
 }
@@ -336,7 +336,7 @@ nav ul li a {
   margin: 10px 0;
   position: relative;
   font-size: 13px;
-  color: #222629;
+  color: #86C232;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: uppercase;
@@ -452,7 +452,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #facts {
-  background-color: #777777;
+  background-color: #212529;
   padding: 60px 0 60px 0;
 }
 
@@ -462,6 +462,7 @@ nav ul li a {
 }
 
 #facts i {
+  color: #212529;
   font-size: 30px;
   margin: 12px 30px 30px 30px;
 }
@@ -471,7 +472,7 @@ nav ul li a {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #86C232;
+  color: #212529;
 }
 
 #facts p {
@@ -480,8 +481,14 @@ nav ul li a {
   color: rgb(212, 212, 212);
 }
 
+.equalcolumns {
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+}
+
 #facts h2 {
-  color: #222629;
+  color: #86C232;
   text-align: center;
   font-size: 25px;
   letter-spacing: 2px;
@@ -490,15 +497,12 @@ nav ul li a {
 
 #facts h5 {
   padding-top: 20px;
-  color: rgb(94, 94, 94);
+  color: #212529;
 }
 
-.bgcolor {
-  background-color: #222629;
-  border: 5px solid rgba(255, 255, 255, 0);
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  padding-top: 30px;
+#columns {
+  background-color: #86C232;
+  border-radius: 5px;
 }
 
 #facts .counters p {
@@ -506,7 +510,7 @@ nav ul li a {
   margin: 10px 0px 30px 0px;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  color: rgb(212, 212, 212);
+  color: #212529;
 }
 
 
@@ -571,7 +575,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #777777;
+  background: #212529;
   padding-top: 50px;
   padding-bottom: 50px;
 }
